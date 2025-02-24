@@ -18,6 +18,17 @@ public class Form {
         label.setBounds(20,20,100,25);
         label.setForeground(Color.WHITE);
 
+        JButton button = new JButton("submit");
+        button.setBounds(100,70,120,35);
+        button.setBackground(new Color(70,130,180));
+        button.setForeground(Color.WHITE);
+        button.setFont(new Font("Arial", Font.BOLD,14));
+
+        JLabel outputLabel = new JLabel();
+        outputLabel.setBounds(20,120,300,30);
+        outputLabel.setForeground(Color.CYAN);
+        outputLabel.setFont(new Font("Arial", Font.BOLD, 14));
+
 
 
     }
