@@ -19,6 +19,9 @@ public class Form {
         label.setForeground(Color.WHITE);
 
         JTextField textField = new JTextField();
+        textField.setBounds(120,20,180,30);
+        textField.setBackground(new Color(50,50,50));
+        textField.setForeground(Color.WHITE);
 
         JButton button = new JButton("submit");
         button.setBounds(100,70,120,35);
