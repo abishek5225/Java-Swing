@@ -37,13 +37,17 @@ public class Form {
         button.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
-                String name = JTextField.getText();
+                String name = textField.getText();
                 outputLabel.setText("Hello"+ name + "!");
             }
         });
 
         frame.add(label);
         frame.add(textField);
+        frame.add(button);
+        frame.add(outputLabel);
+
+        frame.setVisible(true);
 
     }
 }
